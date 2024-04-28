@@ -29,3 +29,78 @@
 .small {
   font-size: 0.75rem;
 }
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.home {
+  text-align: center;
+  margin-top: 20px;
+}
+.day-view {
+  margin-top: 20px;
+}
+
+.schedule-form input {
+  margin-right: 10px;
+}
+
+.schedule-list {
+  margin-top: 20px;
+}
+
+.schedule-list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.schedule-list li {
+  margin-bottom: 10px;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+.event-card button {
+  margin-top: 10px;
+}
+
+.schedule-list {
+  display: grid;
+  gap: 20px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-links li {
+  margin-right: 10px;
+  
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
